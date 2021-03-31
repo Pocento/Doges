@@ -1,0 +1,76 @@
+/* ETIQUETAS */
+body {
+    background-color:  #970260 ;
+}
+footer { background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+label {
+    font-size: 20px;
+}
+input [type="text"], input[date],input[file],input[number], input[password]{
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box; /* para el border*/
+    border: 1px solid chartreuse;
+    resize: vertical;
+}
+/* ID */
+#titulo {
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+}
+#formulario {
+    margin: auto;
+    width: 40%;
+    background-color: chocolate;
+    border-radius: 5px;
+    padding: 1%;
+}
+/* CLASES */
+.navbar {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+}
+.navbar a{
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar a:hover{
+    background-color: gray;
+}
+.fondonavbar{
+    background-color: gray;
+}
+.btn-verde {
+    background-color: green;
+}
+.btn-rojo {
+    background-color: red;
+}
+.btn-verde:hover {
+   background-color: rgb(4, 41, 4);
+}
+.btn-rojo:hover {
+    background-color: rgba(56, 8, 8, 0.986);
+ }
+.btn{
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
